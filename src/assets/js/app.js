@@ -1,6 +1,4 @@
 /* global $ */
-import '../styles/index.scss';
-
 class Board {
   constructor () {
     this.openedCards = [];
