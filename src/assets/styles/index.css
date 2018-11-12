@@ -12,17 +12,12 @@ body {
 }
 
 header {
-  width: 100%
+  width: 100%;
 }
 
 header h1,
 h3 {
   text-align: center;
-}
-
-.tempHide {
-  display: none;
-  top: 300px;
 }
 
 .container {
@@ -71,12 +66,9 @@ h3 {
 }
 
 .board .card.open {
-  transform: rotateY(0);
   background: #02b3e4;
   cursor: default;
-  animation-name: flip;
   list-style: none;
-
 }
 
 .board .card.show {
@@ -87,8 +79,6 @@ h3 {
   cursor: default;
   background: #02ccba;
   font-size: 33px;
-  animation-name: shake;
-  animation-duration: .75sec;
 }
 
 .statistic {

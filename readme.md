@@ -5,7 +5,7 @@
 
 ## Memory-Game
 
-#### Try the live version of the game: https://nazzarkevich.github.io/memory-game/
+#### Try the live version of the game: https://nazzarkevich.github.io/
 
 ### What is it ❓
 **Memory-Game** is a type of *memory game* in which the player should open two identical cards on the board.
