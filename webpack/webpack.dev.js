@@ -19,7 +19,12 @@ module.exports = {
         include: [
           path.resolve(__dirname, '../js')
         ],
-        use: []
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['env']
+          }
+        }
       },
       {
         test: /\.scss$/,

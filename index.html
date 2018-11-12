@@ -1,13 +1,65 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./src/assets/styles/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <title>Flip The Cards</title>
 </head>
+
 <body>
-  <h1>project-scaffoldings</h1>
+  <div class="container">
+    <header>
+      <div class="game-options">
+        <div class="game-type">
+          <h3>Cards type:</h3>
+          <form>
+            <label>
+              <input type="radio" name="game" value="icons" checked>Awesome icons<br>
+            </label>
+            <label>
+              <input type="radio" name="game" value="colors">Colors<br>
+            </label>
+          </form>
+        </div>
+        <div class="game-heading">
+          <h1>MEMORY GAME</h1>
+          <h3>AWESOME ICONS</h3>
+        </div>
+        <div class="game-level">
+          <h3>Level:</h3>
+          <form>
+            <label>
+              <input type="radio" name="level" value="4" checked>4X4<br>
+            </label>
+            <label>
+              <input type="radio" name="level" value="6">6X6<br>
+            </label>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="statistic">
+        <h3>MOVES:</h3>
+        <span id="moves">0</span>
+        <h3>TIMER:</h3>
+        <span id="timer"></span>
+      </div>
+      <div class="game-board">
+        <ul class="board">
+        </ul>
+      </div>
+    </section>
+  </div>
+  <script src="./dist/assets/js/app.bundle.js"></script>
 </body>
+
 </html>

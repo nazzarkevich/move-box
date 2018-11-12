@@ -3,24 +3,26 @@
 * Course curator - [Volodymyr Shevchuk](https://github.com/dosandk)
 * Front-camp [facebook](https://www.facebook.com/groups/270300106928894)
 
-## Move-the-Box
+## Memory-Game
 
-#### Try the live version of the game: https://nazzarkevich.github.io/move-box/
+#### Try the live version of the game: https://nazzarkevich.github.io/memory-game/
 
 ### What is it ❓
-➡️-*the*-📦 **Move-the-Box** is a type puzzle *game* in which the player pushes boxes around trying to get them to storage locations.
+**Memory-Game** is a type of *memory game* in which the player should open two identical cards on the board.
 
 ### Why ❓
-The puzzle project was created for educational purposes.
+The Memory-Game project was created for educational purposes.
 
 ## Teck stack
 
 * JavaScript
 * Html/Css
+* jQuery
+* font-awesome
 
 ## Mockups
 
-[Link]() 
+[Link](https://wireframepro.mockflow.com/view/M0f7a8708e3cbcf4bcc41023534d451f11539372554163#/page/ca1c6b57a7b24ef3bb8c202f290dbac0) 
 
 ## How to contribute
 
