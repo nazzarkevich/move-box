@@ -8,7 +8,7 @@
 #### Try the live version of the game: https://nazzarkevich.github.io/
 
 ### What is it ❓
-**Memory-Game** is a type of *memory game* in which the player should open two identical cards on the board.
+**Memory-Game** is a *card game* in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The player of the game should turn over pairs of matching cards.
 
 ### Why ❓
 The Memory-Game project was created for educational purposes.
