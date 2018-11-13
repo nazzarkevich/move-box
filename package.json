@@ -9,7 +9,8 @@
     "lint": "eslint ./src",
     "lint:watch": "esw --watch",
     "stylelint": "stylelint './src/**/*.css'",
-    "precommit": "npm run lint && npm run stylelint"
+    "precommit": "npm run lint && npm run stylelint",
+    "prepush": "npm run test"
   },
   "repository": {
     "type": "git",
@@ -39,8 +40,6 @@
     "webpack-dev-server": "^3.1.9"
   },
   "dependencies": {
-    "@babel/core": "^7.1.5",
-    "@babel/preset-env": "^7.1.5",
-    "babel-core": "^6.26.3"
+    "babel-preset-env": "^1.7.0"
   }
 }
