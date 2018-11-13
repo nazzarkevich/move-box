@@ -133,3 +133,53 @@ h3 {
 .game-level h3 {
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 630px) {
+  .game-board {
+    width: 350px;
+    min-height: 420px;
+  }
+
+  .game-heading {
+    margin: 0;
+  }
+
+  .game-type {
+    display: none;
+  }
+
+  .game-level {
+    display: none;
+  }
+
+  .board {
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(4, 90px);
+  }
+
+  .board .card {
+    height: 75px;
+    width: 75px;
+  }
+
+  .statistic {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .game-board {
+    width: 320px;
+    min-height: 470px;
+  }
+
+  .board {
+    grid-template-columns: repeat(4, 65px);
+    grid-template-rows: repeat(4, 110px);
+  }
+
+  .board .card {
+    height: 65px;
+    width: 65px;
+  }
+}
