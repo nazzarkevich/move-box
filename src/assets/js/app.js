@@ -1,4 +1,12 @@
 /* global $ */
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('serviceWorker.js', { scope: './' })
+    .then(() => navigator.serviceWorker.ready)
+    .then(registration => registration.active)
+    .catch(error => {
+      console.error('Registration error', error);
+    });
+}
 class Board {
   constructor () {
     this.openedCards = [];

@@ -1,14 +1,14 @@
-const cacheName = 'game-cache';
+const cacheName = 'cache';
 const files = [
   '/',
-  '/assets/styles/index.css',
+  '/src/assets/styles/index.css',
   '/dist/bundle.js',
   '/index.html',
   'https://fonts.googleapis.com/css?family=Roboto'
 ];
 
 self.addEventListener('install', event => {
-  self.skipWaiting();
+  // self.skipWaiting();
 
   console.log('I am working service worker on installing phase');
   event.waitUntil(
@@ -44,7 +44,10 @@ self.addEventListener('fetch', event => {
         .then(response => {
           caches.open(cacheName)
             .then(cache => {
-              cache.put(event.request.url, response);
+              const url = event.request.url;
+              if (!url.includes('chrome')) {
+                cache.put(event.request.url, response);
+              }
             })
             .catch(err => console.error(err));
 
